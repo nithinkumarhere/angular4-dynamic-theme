@@ -4,7 +4,7 @@ import { SettingsComponent } from './settings/settings.component';
 import { ChannelComponent } from './channel/channel.component';
 
 const routes : Routes = [
-    { path:'', redirectTo:'/settings', pathMatch:'full'},
+    { path:'', redirectTo:'/channel', pathMatch:'full'},
     { path:'channel', component:ChannelComponent},
     { path:'settings', component:SettingsComponent}
 ]

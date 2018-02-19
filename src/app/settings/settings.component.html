@@ -1,0 +1,25 @@
+<div class="theme-table">
+    <h3>Choose Tenant Theme</h3>
+    <div class="row">
+        <div class="theme-table-item large-4" (click)="setTheme('kaplan')">
+            <div class="theme-table-tile tile-img-kaplan" [class.tile-selected]="currentTheme=='kaplan'"></div>
+            <label>Kaplan</label>
+        </div>
+        <div class="theme-table-item large-4" (click)="setTheme('skillsoft')">
+            <div class="theme-table-tile tile-img-skillsoft" [class.tile-selected]="currentTheme=='skillsoft'"></div>
+            <label>Skillsoft</label>
+        </div>
+        <div class="theme-table-item large-4" (click)="setTheme('khanacademy')">
+            <div class="theme-table-tile tile-img-khanacademy" [class.tile-selected]="currentTheme=='khanacademy'"></div>
+            <label>Khan Academy</label>
+        </div>
+        <div class="theme-table-item large-4" (click)="setTheme('princeton')">
+            <div class="theme-table-tile tile-img-princeton" [class.tile-selected]="currentTheme=='princeton'"></div>
+            <label>The Princeton Review</label>
+        </div>
+        <div class="theme-table-item large-4" (click)="setTheme('magoosh')">
+            <div class="theme-table-tile tile-img-magoosh" [class.tile-selected]="currentTheme=='magoosh'"></div>
+            <label>Magoosh</label>
+        </div>
+    </div>
+</div>

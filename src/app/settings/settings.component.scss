@@ -1,0 +1,47 @@
+
+.theme-table {
+    padding: 0;
+    margin: 2em 0 5em;
+    max-width: 72rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 0.3em;
+}
+.row {
+    display: -webkit-box;
+    display: flex;
+    flex-flow: row wrap;
+}
+.large-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.theme-table-tile{
+    height: 5em;
+    border: 1px solid #bdbdbd;
+    margin: 2% 25%;
+    min-width: 3em;
+    border-radius: 5px;
+}
+.tile-selected {
+    border: 5px solid #bf2603;
+}
+.tile-img-kaplan {
+    background-color: #240f6e
+}
+.tile-img-skillsoft {
+    background-color: #1c202a
+}
+.tile-img-khanacademy {
+    background-color: #066EE2
+}
+.tile-img-princeton {
+    background-color: #e4e3e6
+}
+.tile-img-magoosh {
+    background-color: #7C5582
+}

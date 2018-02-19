@@ -1,0 +1,64 @@
+[
+    {
+        "kaplan": {
+            "header": {
+                "bgColor": "#240f6e",
+                "headerHeight": "60px",
+                "logoUrl": "url('http://kaptest.cdn.prismic.io/kaptest%2Fbf2444d4-bac3-4f9a-918d-31044bba7970_ktp_sta_white_horizontal.png')",
+                "logoWidth": "170px",
+                "navLinkColor": "#FFF"
+            },
+            "channel": {
+                "rowFlagColor": "#FFF"
+            }
+        },
+        "skillsoft": {
+            "header": {
+                "bgColor": "linear-gradient(to bottom,#1c202a 20%,rgba(28,32,42,0) 100%)",
+                "headerHeight": "95px",
+                "logoUrl": "url('http://www.skillsoft.com/dist/img/img-skillsoft-logo.svg')",
+                "logoWidth": "120px",
+                "navLinkColor": "#FFF"
+            },
+            "channel": {
+                "rowFlagColor": "#1c202a"
+            }
+        },
+        "khanacademy": {
+            "header": {
+                "bgColor": "#066EE2",
+                "headerHeight": "60px",
+                "logoUrl": "url(../assets/khan.png)",
+                "logoWidth": "170px",
+                "navLinkColor": "#FFF"
+            },
+            "channel": {
+                "rowFlagColor": "#066EE2"
+            }
+        },
+        "princeton": {
+            "header": {
+                "bgColor": "#FFFFFF",
+                "headerHeight": "60px",
+                "logoUrl": "url(https://www.princetonreview.com/content/images/logo.png)",
+                "logoWidth": "95px",
+                "navLinkColor": "#000"
+            },
+            "channel": {
+                "rowFlagColor": "#F4DA22"
+            }
+        },
+        "magoosh": {
+            "header": {
+                "bgColor": "#7C5582",
+                "headerHeight": "60px",
+                "logoUrl": "url(https://2aih25gkk2pi65s8wfa8kzvi-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/magoosh-logo.svg)",
+                "logoWidth": "10.3125rem",
+                "navLinkColor": "#FFF"
+            },
+            "channel": {
+                "rowFlagColor": "#7C5582"
+            }
+        }        
+    }
+]

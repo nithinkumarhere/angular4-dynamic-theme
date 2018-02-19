@@ -1,5 +1,6 @@
 # Angular4 Dynamic Theme for Multi-Tenant App
 This shows how to dynamically load tenant specific styles from a JSON file. It uses jsontosass and scss.
+
 Try Demo Link: [https://angular4-dynamic-theme.firebaseapp.com](https://angular4-dynamic-theme.firebaseapp.com)
 
 ## Run Project

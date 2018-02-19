@@ -19,6 +19,7 @@
     max-width: 33.33333%;
     text-align: center;
     margin-bottom: 2em;
+    cursor: pointer;
 }
 .theme-table-tile{
     height: 5em;
@@ -28,7 +29,16 @@
     border-radius: 5px;
 }
 .tile-selected {
-    border: 5px solid #bf2603;
+    position: relative;
+    border: 5px solid #007C22;
+}
+.tile-selected:before{
+    content: url('../../assets/tick_mark.png');
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
 }
 .tile-img-kaplan {
     background-color: #240f6e
